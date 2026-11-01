@@ -1,0 +1,51 @@
+name: Import Kota Shift v0.1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "kota-shift-v0.1.zip"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify archive and extract game
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "121791b5380af4c52d021b7996164e1dd1b1a39620c6435ad5d91a08f04fb17d  kota-shift-v0.1.zip" | sha256sum -c -
+          mkdir -p /tmp/kota-shift-unpacked
+          unzip -q kota-shift-v0.1.zip -d /tmp/kota-shift-unpacked
+          test -f /tmp/kota-shift-unpacked/kota-shift/index.html
+          test -f /tmp/kota-shift-unpacked/kota-shift/src/game.js
+          cp -a /tmp/kota-shift-unpacked/kota-shift/. .
+          rm kota-shift-v0.1.zip
+          node --check src/game.js
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          manifest = json.loads(Path("assets/provenance.json").read_text())
+          for a in manifest["items"]:
+              p = Path(a["output"])
+              assert p.is_file(), str(p)
+              assert hashlib.sha256(p.read_bytes()).hexdigest() == a["sha256"], str(p)
+          print("Verified", len(manifest["items"]), "original v6b PNG files")
+          PY
+      - name: Commit source and original assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Import Kota Shift v0.1 playable game and 41 original v6b assets"
+            git push origin HEAD:main
+          fi
