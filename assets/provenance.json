@@ -1,0 +1,375 @@
+{
+  "source": "User-supplied virtual-life-source.zip snapshot, assets generated from original v6b pipeline",
+  "policy": "Existing v6b PNG assets copied unchanged. No generated AI images.",
+  "items": [
+    {
+      "output": "assets/chars/ichsan_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/ichsan_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "eca90e51bb363b257418f38f8d87b88013b33f8d896eb8f2363ae97df5dd3220"
+    },
+    {
+      "output": "assets/chars/nadia_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/nadia_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "6e29b6b32f01e49a29d2d37f651cf12c9f729a2e6a86702e23f4bc529ac5eec9"
+    },
+    {
+      "output": "assets/chars/raka_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/raka_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "d92cbcc3f606a629f02443fa4df9eac18c45f8cf0138dbda2d548d4984bbb9d0"
+    },
+    {
+      "output": "assets/chars/bu_warteg_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/bu_warteg_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "2468ac3b1cbb4ee5676cb10889ee6d1fb5049dda378e9c7ca44666c26e16eeac"
+    },
+    {
+      "output": "assets/chars/noor_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/noor_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "2b340553581420958c96ceae8dbfb16fba6388dafaacc9225cc269846eebefa2"
+    },
+    {
+      "output": "assets/chars/bima_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/bima_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "e246c6a33975eb1156e0892170bc840e65ab39498618e48f0c88f31697c4ecdb"
+    },
+    {
+      "output": "assets/chars/ellen_v6b_sheet.png",
+      "origin": "workspace/virtual-office/assets/chars/ellen_v6b_sheet.png",
+      "size": [
+        384,
+        4928
+      ],
+      "sha256": "fca77304f99db6999d35b376ac48e4460c4b08cd88c1836de9e44a5c94c06b6a"
+    },
+    {
+      "output": "assets/tiles/floor_gallery_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/floor_gallery_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "c130a9e9f84224558014fb1f29930c400082492efb9fe561d776009674dc1d51"
+    },
+    {
+      "output": "assets/tiles/floor_gallery_b.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/floor_gallery_b.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "1aad321265e122d38a876a2e8d66f68c479e081b4ec57565ff6e253830618c8b"
+    },
+    {
+      "output": "assets/tiles/wood_walnut_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/wood_walnut_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "aa9abd464ab821be4d0207b4a192e65f5b562b26e42cf598d5e28f9922e9fcc4"
+    },
+    {
+      "output": "assets/tiles/wood_walnut_b.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/wood_walnut_b.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "c515c63f3a04c4a621b58c67629f2330650f0164f6510b4cc1b3db6f4ecc53c2"
+    },
+    {
+      "output": "assets/tiles/tile_stone_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/tile_stone_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "5035c4dc74db91875e1678274443a8dfde823026a466ba1c37edc5f643d7e9d3"
+    },
+    {
+      "output": "assets/tiles/tile_stone_b.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/tile_stone_b.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "d819854e98046ad9a4902f52b9e462e91565563abf661742a0e702fa234e191c"
+    },
+    {
+      "output": "assets/tiles/carpet_baize_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/carpet_baize_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "c4e6d2d488707cf17d121f4392bcf5ccc60cf253bb62faea17af1f52533cb233"
+    },
+    {
+      "output": "assets/tiles/carpet_baize_b.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/carpet_baize_b.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "bf3aec11618967fbc6427e37c82ae77561b0ff7b373cb68423eb9c00a862a41a"
+    },
+    {
+      "output": "assets/tiles/floor_night_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/floor_night_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "6371500dcfcfe3183955d4ab5d7c6883761976fe8d257bdfe2d92af302ce2a2f"
+    },
+    {
+      "output": "assets/tiles/floor_night_b.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/floor_night_b.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "bdad70611415c78c8ba177a428266b6610bf8d99542e521dc6b70398a1b33a4b"
+    },
+    {
+      "output": "assets/tiles/grass_a.png",
+      "origin": "workspace/virtual-office/assets/env/tiles/grass_a.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "037af7e588d7bf7de8dc6d034d08399877939a3de87d29444f99297ac0eab3f8"
+    },
+    {
+      "output": "assets/props/desk_single_se.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/desk_single_se.png",
+      "size": [
+        62,
+        82
+      ],
+      "sha256": "0b933aca1bcd06d04629eb3b9b235a3232bd3b698a08394bf6af6ead7bdf898c"
+    },
+    {
+      "output": "assets/props/desk_double_se.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/desk_double_se.png",
+      "size": [
+        94,
+        98
+      ],
+      "sha256": "05b8269357aa7a93294c8a2e458214ebec0bea8d037b3b8ac15fa359755b3f2f"
+    },
+    {
+      "output": "assets/props/office_chair_se.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/office_chair_se.png",
+      "size": [
+        33,
+        59
+      ],
+      "sha256": "4986b696bab2e0146e647aea3f15462b50ef4be28bbe54eb08d46b5d706d05c1"
+    },
+    {
+      "output": "assets/props/office_chair_sw.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/office_chair_sw.png",
+      "size": [
+        33,
+        59
+      ],
+      "sha256": "7bf68b469f5b79365ce12eeeb306d39a656cdc163dc762061d34b81335a703f5"
+    },
+    {
+      "output": "assets/props/water_dispenser_se.png",
+      "origin": "workspace/virtual-office/assets/env/misc/water_dispenser_se.png",
+      "size": [
+        34,
+        78
+      ],
+      "sha256": "9cd3301a1b73fe2dfb74edc851514e3c45f5395eb8e2dccd5b17611e7a2b21af"
+    },
+    {
+      "output": "assets/props/filing_cabinet_se.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/filing_cabinet_se.png",
+      "size": [
+        52,
+        75
+      ],
+      "sha256": "083c4e4a3f64b878030dc9d24f57a2d616988c3fa9f7ed3343aec7c5893274b7"
+    },
+    {
+      "output": "assets/props/prop_monitor_se.png",
+      "origin": "workspace/virtual-office/assets/env/workspace/prop_monitor_se.png",
+      "size": [
+        25,
+        41
+      ],
+      "sha256": "c3893532133f9f7c6223fb2954e435b7da427044616ea3a1176e643a01212194"
+    },
+    {
+      "output": "assets/props/coffee_counter_se_f0.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/coffee_counter_se_f0.png",
+      "size": [
+        93,
+        94
+      ],
+      "sha256": "9ea448c8a608213919369a907a7d49751878a551240532d17d8fdcb336afcf9c"
+    },
+    {
+      "output": "assets/props/coffee_table_sw.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/coffee_table_sw.png",
+      "size": [
+        84,
+        55
+      ],
+      "sha256": "d6a6840053a2ba8572b5f78042590fdb5dc34c51bfe9953a4de5bb4d6840a75c"
+    },
+    {
+      "output": "assets/props/sofa_2_se.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/sofa_2_se.png",
+      "size": [
+        89,
+        82
+      ],
+      "sha256": "1bf6a7b01e836360ad9cb6b21bf2aae1de3f9ff5ca2d470b3f904e21824deed7"
+    },
+    {
+      "output": "assets/props/sofa_3_se.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/sofa_3_se.png",
+      "size": [
+        121,
+        98
+      ],
+      "sha256": "7ad1e34dceda936a368c49c2116c38cc2c553104c3dcf48aac3bafe4e932bc57"
+    },
+    {
+      "output": "assets/props/plant_tall.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/plant_tall.png",
+      "size": [
+        31,
+        93
+      ],
+      "sha256": "66ffda3a1a8d84d1a5c49ad6325ffb23c5fd04dbe152d9ceb0a5363eb22c1b91"
+    },
+    {
+      "output": "assets/props/plant_snake.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/plant_snake.png",
+      "size": [
+        24,
+        65
+      ],
+      "sha256": "095b1080b73e5ba1d7da158046c17c2ac499d847e4c3b3bc0f308cd6687b3476"
+    },
+    {
+      "output": "assets/props/plant_bush.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/plant_bush.png",
+      "size": [
+        31,
+        54
+      ],
+      "sha256": "b60fd8b90f32f59e3655b4042abb767bf88801e2f1145fa838ed49cd5f99d5a9"
+    },
+    {
+      "output": "assets/props/rug_lounge_se.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/rug_lounge_se.png",
+      "size": [
+        147,
+        74
+      ],
+      "sha256": "a8f33d9fc188348c55eec75513df765b127d7f549e5a1c5e942605a69436f8bb"
+    },
+    {
+      "output": "assets/props/clock_L.png",
+      "origin": "workspace/virtual-office/assets/env/misc/clock_L.png",
+      "size": [
+        14,
+        25
+      ],
+      "sha256": "0a27fef96e2c69fc97b70934334a43691da743591724279b8c16a14678d4125f"
+    },
+    {
+      "output": "assets/props/copier_se.png",
+      "origin": "workspace/virtual-office/assets/env/misc/copier_se.png",
+      "size": [
+        52,
+        64
+      ],
+      "sha256": "58a2bb1b0418964aebd7910c4e300d0883dcc89414c74ef24374755f7ad73a4b"
+    },
+    {
+      "output": "assets/props/pingpong_table_se.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/pingpong_table_se.png",
+      "size": [
+        150,
+        101
+      ],
+      "sha256": "f492d8ad19c18425667ab1372f48fcf97f8a72166d618037020862a24bb2eb98"
+    },
+    {
+      "output": "assets/props/armchair_lounge_se.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/armchair_lounge_se.png",
+      "size": [
+        52,
+        70
+      ],
+      "sha256": "ff3e8fd1786ebd02f26fe8140b56e2451739e2cf41f276656f77270c9ec63847"
+    },
+    {
+      "output": "assets/props/prop_coffee_machine_se_f0.png",
+      "origin": "workspace/virtual-office/assets/env/lounge/prop_coffee_machine_se_f0.png",
+      "size": [
+        30,
+        50
+      ],
+      "sha256": "715f4c843b72269725a5aa23a2545e573317ec1b2984ac31ea3fa41d180f0fe5"
+    },
+    {
+      "output": "assets/veg/pohon_asam_S.png",
+      "origin": "workspace/virtual-office/assets/veg/pohon_asam_S.png",
+      "size": [
+        108,
+        119
+      ],
+      "sha256": "a076b632995ea9396688c750b13e7c8fc70c84fbd170cd7b9393828e46f56364"
+    },
+    {
+      "output": "assets/veg/pohon_glodokan_tiang.png",
+      "origin": "workspace/virtual-office/assets/veg/pohon_glodokan_tiang.png",
+      "size": [
+        62,
+        186
+      ],
+      "sha256": "a56c19df031f35ec2519ea0ee8be02fbcfed8bba0083159a7d0638a518d26948"
+    },
+    {
+      "output": "assets/veg/tuft_rumput_a.png",
+      "origin": "workspace/virtual-office/assets/veg/tuft_rumput_a.png",
+      "size": [
+        20,
+        13
+      ],
+      "sha256": "98e6024804b8dcc39c3e9d0d16441e3b80bcc31de00cb404ce26a36ed563cb29"
+    }
+  ]
+}
